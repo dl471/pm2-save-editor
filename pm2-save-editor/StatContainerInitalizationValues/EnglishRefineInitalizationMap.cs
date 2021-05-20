@@ -318,40 +318,40 @@ namespace pm2_save_editor
                 statID = Stat.Height,
                 type = StatTypes.GNXFloat,
                 offset = 0xF0,
-                Max = Limits.BodyProportionMax,
-                Min = Limits.BodyProportionMin }
+                Max = 20000,
+                Min = 0 }
             },
             { Stat.Weight, new InitalizationStruct {
                 name = "Weight",
                 statID = Stat.Weight,
                 type = StatTypes.GNXFloat,
                 offset = 0xF2,
-                Max = Limits.BodyProportionMax,
-                Min = Limits.BodyProportionMin }
+                Max = 8000,
+                Min = 2500 }
             },
             { Stat.Bust, new InitalizationStruct {
                 name = "Bust",
                 statID = Stat.Bust,
                 type = StatTypes.GNXFloat,
                 offset = 0xF4,
-                Max = Limits.BodyProportionMax,
-                Min = Limits.BodyProportionMin }
+                Max = 20000,
+                Min = 0 }
             },
             { Stat.Waist, new InitalizationStruct {
                 name = "Waist",
                 statID = Stat.Waist,
                 type = StatTypes.GNXFloat,
                 offset = 0xF6,
-                Max = Limits.BodyProportionMax,
-                Min = Limits.BodyProportionMin }
+                Max = 8250,
+                Min = 1000 }
             },
             { Stat.Hips, new InitalizationStruct {
                 name = "Hips",
                 statID = Stat.Hips,
                 type = StatTypes.GNXFloat,
                 offset = 0xF8,
-                Max = Limits.BodyProportionMax,
-                Min = Limits.BodyProportionMin }
+                Max = 20000,
+                Min = 0 }
             },
 
            { Stat.TotalClasses, new InitalizationStruct {
