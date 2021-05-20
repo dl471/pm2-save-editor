@@ -343,7 +343,7 @@ namespace pm2_save_editor
                 type = StatTypes.GNXFloat,
                 offset = 0xF6,
                 Max = 8250,
-                Min = 1000 }
+                Min = 2500 }
             },
             { Stat.Hips, new InitalizationStruct {
                 name = "Hips",
