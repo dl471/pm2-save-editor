@@ -318,8 +318,8 @@ namespace pm2_save_editor
                 statID = Stat.Height,
                 type = StatTypes.GNXFloat,
                 offset = 0xF0,
-                Max = 20000,
-                Min = 0 }
+                Max = Limits.BodyProportionMax,
+                Min = Limits.BodyProportionMin }
             },
             { Stat.Weight, new InitalizationStruct {
                 name = "Weight",
@@ -334,8 +334,8 @@ namespace pm2_save_editor
                 statID = Stat.Bust,
                 type = StatTypes.GNXFloat,
                 offset = 0xF4,
-                Max = 20000,
-                Min = 0 }
+                Max = Limits.BodyProportionMax,
+                Min = Limits.BodyProportionMin }
             },
             { Stat.Waist, new InitalizationStruct {
                 name = "Waist",
@@ -350,8 +350,8 @@ namespace pm2_save_editor
                 statID = Stat.Hips,
                 type = StatTypes.GNXFloat,
                 offset = 0xF8,
-                Max = 20000,
-                Min = 0 }
+                Max = Limits.BodyProportionMax,
+                Min = Limits.BodyProportionMin }
             },
 
            { Stat.TotalClasses, new InitalizationStruct {
