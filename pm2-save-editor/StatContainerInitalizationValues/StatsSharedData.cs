@@ -81,6 +81,8 @@ namespace pm2_save_editor
         public const int NameMin = 1;
         public const int GoldMax = 2147483647;
         public const int GoldMin = -2147483647;
+        public const int BodyProportionMax = 20000;
+        public const int BodyProportionMin = 0;
         public const int ClassMax = 300;
         public const int ClassMin = 0;
         public const int BloodTypeMax = 4;
