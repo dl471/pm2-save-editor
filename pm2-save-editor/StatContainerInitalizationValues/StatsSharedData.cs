@@ -71,7 +71,7 @@ namespace pm2_save_editor
     {
         public const int RepMax = 2000;
         public const int RepMin = 0;
-        public const int CombatSkillMax = 500;
+        public const int CombatSkillMax = 999;
         public const int CombatSkillMin = 0;
         public const int GeneralPersonalStatMax = 1500;
         public const int GeneralPersonalStatMin = 0;
@@ -81,8 +81,8 @@ namespace pm2_save_editor
         public const int NameMin = 1;
         public const int GoldMax = 2147483647;
         public const int GoldMin = -2147483647;
-        public const int BodyProportionMax = 50000;
-        public const int BodyProportionMin = -50000;
+        public const int BodyProportionMax = 20000;
+        public const int BodyProportionMin = 0;
         public const int ClassMax = 300;
         public const int ClassMin = 0;
         public const int BloodTypeMax = 4;
